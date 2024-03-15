@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <div>
+        <%= link_to 'Home', root_path, class: "navbar-logo" %>
+    </div>
+    <div class="clickme" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto navbarlinks">
+            <li class="nav-item">
+                <%= link_to 'About', about_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to 'Prices', prices_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to 'Massage', massage_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "About", about_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to 'Contact', contact_path, class: "nav-link" %>
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav>
+      <ul>
+        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'About', about_path %></li>
+        <li><%= link_to 'Contact', contact_path %></li>
+        <li><%= link_to 'Massage', massage_path %></li>
+        <li><%= link_to 'Prices', prices_path %></li>
+      </ul>
+    </nav>

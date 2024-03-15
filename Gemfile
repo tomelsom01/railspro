@@ -76,3 +76,5 @@ gem 'simple_form'
 gem 'bootstrap', '~> 5.0'
 
 gem 'sassc-rails'
+
+gem "dotenv-rails"
